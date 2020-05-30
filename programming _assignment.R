@@ -1,0 +1,7 @@
+install.packages("Ryacas")
+library(Ryacas)
+x1 <- makeInverse(matrix(c(1,2,3,4),2,2))
+x1$getsolve() 
+cachesolve(x1)
+cachesolve(x1)
+x1$set(x1$getsolve()) 
