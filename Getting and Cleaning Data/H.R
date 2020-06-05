@@ -1,1 +1,0 @@
-Q,EBQ,BE,QB,JB  Q,JB
